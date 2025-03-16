@@ -1,0 +1,1 @@
+model.save('chatbot_model.h5', hist)

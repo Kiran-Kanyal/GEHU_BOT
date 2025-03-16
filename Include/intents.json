@@ -1,0 +1,151 @@
+{
+  "intents": [ 
+        {
+          "tag": "greeting",
+          "patterns": ["Hi there", "How are you", "Hello", "Hey",  "Namaste", "yo","Hey there","Hii","Hi","Listen"],
+          "responses": ["Hello", "Hi there, how can I help?", "Hey! What's up?","Hey! How may i assist you?"]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": ["bye", "See you later", "Goodbye", "Bye","Okay bye"],
+          "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
+      },
+      {
+          "tag": "thanks",
+          "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+          "responses": ["My pleasure", "You're Welcome", "Glad I could assist!"]
+      },
+      {
+          "tag": "noanswer",
+          "patterns": [],
+          "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand your point"]
+      },     
+      {
+          "tag": "scenery",
+          "patterns": ["How does the campus look","How large is the campus","Is the campus beautiful"],
+          "responses": ["Certainly! The campus is known for it's large buildings & great architecture. All the campuses have beautiful gardens & look up. The campus would be a joy to your eyes, you should definitely visit the campuses of GEHU."]
+      },
+      {
+          "tag": "error",
+          "patterns": ["I don't understand", "Can you explain?", "What do you mean?","What are you trying to say","What are you saying man","gehuBot are you evening listening"],
+          "responses": ["I'm sorry, I couldn't understand that. Please try rephrasing or ask another question."]
+      },
+      {
+        "tag": "admission",
+        "patterns": ["Tell me more about the admission procedure", "How can I get admission?", "Admission process"],
+        "responses": [
+          "To get admission, follow the college's procedure. The Application Process: 1. Choose your Course of Interest: there are more than 85 Programs to choose from at UG, PG and PhD Level. 2. Start your Online Application 3. Fill your form and upload documents: The Online application process allows you to fill up forms on multiple levels and submitting your qualifying documents. 4. Review your application and Submit: 5. Complete Application Fee Payment: Once your form is successfully submitted, complete the application fee payment (₹ 1500 for all courses). 6. Finalize Admission by Paying the Course Fee: The final course fee can be paid once Step 5 is completed by choosing the appropriate payment mode. The final/provisional allotment letter will be provided digitally along with other course commencement information."
+        ]
+      },       
+      {
+          "tag": "percentage",
+          "patterns": ["What percentage is required for admission?", "Minimum percentage for admission","Can i get direct admission in graphic era","Can i get admission withou giving JEE","Is there any exam for getting admission in graohic era","Can i get admission in"],
+          "responses": ["You can get direct admission in Graphic Era Hill University . There are no entrance exams associated with admission to the university. However, to be eligible for admission, students shall have obtained a minimum of 60 percent aggregate in the science stream for engineering courses & in their respective stream for the course they are choosing. The university offers a number of UG, PG, and PhD courses."]
+      },
+      {
+        "tag": "scholarship",
+        "patterns": ["What are the scholarship criteria?", "How to qualify for a scholarship?", "How much scholarship is given?"],
+        "responses": [
+          "Academic Scholarship\n",
+          "The Fee Structure at Graphic Era, clearly mentions the Academic Scholarships provided in all courses defined in various categories based on the merit of the candidate obtained in the qualifying examination considered for admission into that specific course.",
+          "The candidate will have to score a minimum aggregate of 70%, in order for the scholarship to applied in each semester. For candidates who fail to score 70% or above in any of the semesters, the scholarship will not be applicable for that particular semester. If the candidate is able to score 70% or above in the subsequent semester  the scholarship will be reinstated.",
+          "Other Scholarships Include : \n",
+          "1.Fee Concession For All Female Candidates: 10% On Net Tuition Fee\n",
+          "2.Fee Concession For Wards Of Defence Personnel (Current and Ex-Servicemen from the Indian Armed Forces): 5% On Net Tuition Fee\n",
+          "Loyalty Concession: 10% On Net Tuition Fee\n",
+          "Current Student: Immediate Siblings of a student who is currently a student of Graphic Era will be eligible for a Fee Concession of 7.5% on the NET TUITION FEE.",
+          "Alumni: Immediate Siblings of a student who is an Alumni of Graphic Era, will be eligible for a Fee Concession of 5% on the NET TUITION FEE.",
+          "Download Full Scholarship Policy Graphic Era Hill University 2023. Visit the official page to dwonload.\n"
+        ]
+      },
+      {
+        "tag": "library",
+        "patterns": ["Tell me about the college library.","Is there a library on campus?", "What are the library facilities?", "Library resources"],
+        "responses": ["Our college library is equipped with a vast collection of books, journals, and digital resources. It provides a quiet and conducive environment for studying, and students have access to various reference materials and online databases."]
+      },
+      {
+        "tag": "transportation",
+        "patterns": ["How are the transportation facilities?", "Is there transportation for students?", "College bus service"],
+        "responses": ["We provide transportation facilities for students, including a college bus service that covers various routes. The buses are well-maintained and ensure safe and timely commuting for students."]
+      },
+      {
+        "tag": "highest_package",
+        "patterns": ["Tell me about the highest package offered.", "Highest salary package", "Top salary in placements"],
+        "responses": [" The highest package offered during Graphic Era Hill University BTech placements 2023 stood at INR 84.88 LPA and was made by Atlassian. Our placement cell works diligently to bring top companies to the campus."]
+      },
+      {
+        "tag": "top_recruiters",
+        "patterns": ["Which companies are the top recruiters?", "List of top recruiting companies", "Major recruiters in placements","Which companies visit the campus during campus placements"],
+        "responses": ["Top recruiting companies for our college include Amazon, Teradata, American Express, Zscaler, Salesforce, Adobe, TCS, Infosys, Byju's, Informatica & Square Yards. The placements are fair enough, and the department put in many efforts for students to get placed."]
+      },
+      {
+        "tag": "companies_visit",
+        "patterns": ["Which companies visit the campus?", "List of companies in campus placements", "Companies participating in placement drives","How many companies visit the campus for campus placement"],
+        "responses": ["Several renowned companies visit our campus during placement drives. Some of them include Adobe, Amazon, IBM, Infosys, TCS, Byjus, Samsung, Tech Mahindra, Reliance, Sage Publishing, Radisson Blu Group of Resorts and Hotels, HSBC Bank, American Express Bank, Ashok Leyland, Amar Ujala & Indian Express, offering a wide range of career opportunities for our students."]
+      },
+      {
+        "tag": "average_package",
+        "patterns": ["Tell me about the average salary package.", "What is the average package in placements?", "Average salary for graduates","Average placement"],
+        "responses": ["The average salary package is 6 LPA."]
+      },
+      {
+        "tag": "gehu",
+        "patterns": [" i want to know about graphic era hill university","Graphic era hill university","how is graphic era hill university"],
+        "responses": ["Graphic Era Hill University is a private university with 3 campuses located in Dehradun, Haldwani and Bhimtal, Uttarakhand, India. The university is set up under Section 2 of the UGC Act, 1956 as the extension of the Graphic Era Educational Society, Dehradun."]
+      },
+      {
+        "tag": "bus_fee",
+        "patterns": [" i want to know about the bus fees of graphic era hill university","Bus fees","what is the bus fees of university","bus fees"],
+        "responses": ["The bus fees is 2600 Rupees."]
+      },
+      {
+        "tag": "rank",
+        "patterns": ["WHat is its rank", "NIRF ranking", "How is the university rank", "What is university rank","what is its position"],
+        "responses": ["Graphic era hill university is Ranked 64 for Engineering category by NIRF in 2022."]
+      },
+      
+      {
+        "tag": "faculty",
+        "patterns": ["is the faculty good", "How is the faculty in the college", "Are the teachers good", "Is the study good","Do teachers teach good","How is the study"],
+        "responses": ["College faculty is good & helpul. The environment is good for studying"]
+      },
+      {
+        "tag": "extracurricular",
+        "patterns": ["What extracurricular activities are available?", "extracurricular activities", "Are their fun events", "What all events happen in college"],
+        "responses": ["There is never a dull moment in graphic era. The college is full of extracurricular events & activities like Grafest, Kavi Sammelan, Sports events, University Trips, NCC & NSS & multiple student clubs organize fun activities throughout the year."]
+      },
+      {
+        "tag": "sports",
+        "patterns": ["Sports", "sports facilities in graphic era hill university", "What all sports can we play", "Can we play sports in college"],
+        "responses": ["GEHU organizes inter and intra-college level football, cricket, basketball tournaments. There are also facilities for all indoor games including Table Tennis, Badminton, Billiards, Carom and Chess etc. The sport week is organized in each session where students participate with full enthusiasm."]
+      },
+      {
+        "tag": "location",
+        "patterns": ["location","How can i reach the college","Where is the college","college is situated in ?"],
+        "responses": ["There are three campuses of Graphic Era Hill University with the location : \n",
+        "1.Dehradun Campus : Road Society Area, Clement Town, Dehradun, Uttarakhand 248002\n",
+        "2.Bhimtal Campus : Sat Tal Road, Bhowali, Bhimtal - 263156, Uttarakhan\n",
+      "3.Haldwani Campus : at Bareilly road, near Mahalakshmi Temple. Haldwani 263139"]
+      }
+      ,
+      {
+        "tag": "course",
+        "patterns": [
+          "What are the courses provided by the university",
+          "List of courses",
+          "How many courses are present in the university",
+          "Courses",
+          "Can you tell me about the courses","What majors and minors are offered?"
+        ],
+        "responses": [
+          "The university offers a variety of courses in different streams. Some of the courses include: B.TECH (Computer Science and Engineering), B.TECH (Civil Engineering), B.TECH (Mechanical Engineering), B.TECH (Robotics And Automation Engineering), B.TECH (Automobile Engineering, B.TECH (Other Branches), B.Arch, B.Pharma, BCA, B.Sc IT, BBA, BBA - Digital Marketing, BBA - Travel and Tourism, BBA + LLB, BA (Hons.) - English, BA In Journalism And Mass Communication, Bachelor Of Commerce ( Hons.), B.Sc (Hons.) - Agriculture, B.Sc (Hons.) - Computer Science, B.Sc In Animation and Gaming, B.Sc (Hons.) - Mathematics/Physics, B.Des, Bachelor of Fine Arts, Bachelor of Fashion Design"
+        ]
+      },
+
+      {
+        "tag":"No_of_campuses",
+        "patterns": ["what are the number of campuses of the university","how many campuses are there"],
+        "responses": ["there are 3 campuses : Dehradun, Bhimtal & Haldwani are the locations."]
+      }
+  ]
+}
